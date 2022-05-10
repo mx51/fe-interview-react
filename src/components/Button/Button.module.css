@@ -1,0 +1,81 @@
+.Button {
+  display: inline-flex;
+  appearance: none;
+  align-items: center;
+  justify-content: center;
+  transition: all 250ms ease 0s;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  line-height: 1.2;
+  border-radius: var(--border-radius);
+  height: auto;
+  min-height: 40px;
+  cursor: pointer;
+  font-size: var(--fontSize-md);
+  padding-inline-start: var(--space-4);
+  padding-inline-end: var(--space-4);
+  border: 1px solid transparent;
+  background: var(--color-gray-300);
+  color: var(--color-gray-600);
+}
+.Button:hover:not(:disabled):not([data-disabled]) {
+  background: var(--color-gray-400);
+  color: var(--color-gray-700);
+}
+
+.Button-colorScheme--green {
+  background: var(--color-green-600);
+  color: #fff;
+}
+
+.Button-colorScheme--green:hover:not(:disabled):not([data-disabled]) {
+  background: var(--color-green-700);
+  color: #fff;
+}
+
+.Button:focus {
+  box-shadow: var(--shadow-outline);
+}
+.Button:disabled,
+.Button[data-disabled] {
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+
+.ButtonIconWrapper {
+  display: inline-flex;
+  align-self: center;
+  flex-shrink: 0;
+  margin-right: var(--space-2);
+}
+
+.ButtonLoadingSpinner {
+  font-size: var(--fontSize-lg);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  -webkit-animation: LoadingSpinner 1s linear infinite;
+  -moz-animation: LoadingSpinner 1s linear infinite;
+  animation: LoadingSpinner 1s linear infinite;
+}
+
+@-moz-keyframes LoadingSpinner {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes LoadingSpinner {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes LoadingSpinnerspin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
