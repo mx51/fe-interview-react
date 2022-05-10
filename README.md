@@ -1,4 +1,4 @@
-# mx51 Technical Interview
+# mx51 Frontend Technical Interview
 
 Hi!
 
