@@ -66,5 +66,5 @@ Deployment script/processes will depend on deploy target...
 To build the react app (static files), run;
 
 ```bash
-cd npm run build
+npm run build
 ```
