@@ -1,5 +1,0 @@
-.ProductGrid {
-  display: grid;
-  gap: var(--space-4);
-  grid-template-columns: repeat(4, 1fr);
-}
