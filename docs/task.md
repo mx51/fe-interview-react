@@ -23,3 +23,7 @@ If we have time, we will ask you to implement the "Pay" button, and submit the o
 - You can ask us any questions.
 - You can use any tools you are comfortable with.
 - You can use any resources you want.
+
+# Example Image
+
+![POS App screenshot](docs/images/app-screenshot-suggestion.png)
