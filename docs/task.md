@@ -26,4 +26,4 @@ If we have time, we will ask you to implement the "Pay" button, and submit the o
 
 # Example Image
 
-![POS App screenshot](docs/images/app-screenshot-suggestion.png)
+![POS App screenshot](images/app-screenshot-suggestion.png)
