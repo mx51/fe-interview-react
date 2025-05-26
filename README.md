@@ -20,6 +20,8 @@ roughly 35-45 minutes before having further discussion.
 > [!IMPORTANT]  
 > We will ask you to share your screen, please ensure you are ready to do so.
 
+We will be working on the following task: [View Task](docs/task.md)
+
 We will passively "pair" with you, meaning we will not give you any instructions, but will ask questions and provide feedback as we see fit.
 
 You are welcome to ask questions at any time! We're more than happy to help you get the most out of the interview. If you want to bounce ideas off us, we're all ears!
